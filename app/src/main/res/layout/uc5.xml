@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/uc5"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/uc5_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="6">
+
+
+        <Button
+            android:id="@+id/uc5_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_row="5"
+            android:layout_columnSpan="3"/>
+
+    </GridLayout>
+
+</LinearLayout>
+
+
